@@ -1,20 +1,15 @@
----------------------------------------------------------------------------------------------------
- █████╗ ██████╗ ██████╗     ███████╗ ██████╗ █████╗ ███╗   ██╗    ██████╗ ██╗     ██╗   ██╗███████╗
-██╔══██╗██╔══██╗██╔══██╗    ██╔════╝██╔════╝██╔══██╗████╗  ██║    ██╔══██╗██║     ██║   ██║██╔════╝
-███████║██████╔╝██████╔╝    ███████╗██║     ███████║██╔██╗ ██║    ██████╔╝██║     ██║   ██║███████╗
-██╔══██║██╔══██╗██╔═══╝     ╚════██║██║     ██╔══██║██║╚██╗██║    ██╔═══╝ ██║     ██║   ██║╚════██║
-██║  ██║██║  ██║██║         ███████║╚██████╗██║  ██║██║ ╚████║    ██║     ███████╗╚██████╔╝███████║
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝         ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═╝     ╚══════╝ ╚═════╝ ╚══════╝
----------------------------------------------------------------------------------------------------
-Arp-Scan+ : 
+# Arp-Scan+ : 
     Discover devices on your network.
-Requirements : 
+    
+# Requirements : 
     - python3
     - arp-scan
-Additions to Arp-Scan :
+    
+# Additions to Arp-Scan :
     - Sort devices by IP address.
     - Display the device hostname (with or without ".lan".
-Usage:
+    
+# Usage:
     To use this tool with the default arguments, simply run (as root):
     $    python3 ArpScanPlus.py
     To use a certain NIC (e.g. "en0"):
@@ -25,7 +20,8 @@ Usage:
     $    python3 ArpScanPlus.py -l
     You can combine these options (e.g. use NIC "en0" and display devices in order without ".lan"):
     $    python3 ArpScanPlus.py -I en0 -o -l
-Help Menu:
+    
+# Help Menu:
 usage: ArpScanPlus.py [-h] [-I INTERFACE] [-o] [-l] [-a]
 
 options:
