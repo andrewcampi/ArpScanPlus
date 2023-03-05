@@ -1,5 +1,5 @@
 ## Arp-Scan+  
-    Discover devices on your network more efficiently.
+    Discover devices on your network more effectively.
     
 ## Example output
     IP Address         Hostname                  Manufacturer              MAC Address              
@@ -16,7 +16,7 @@
     
 ### Additions to Arp-Scan 
     Sort devices by IP address.
-    Display the device hostname (with or without ".lan".
+    Display the device hostname, with or without ".lan".
     
 ### Usage
     To use this tool with the default arguments, simply run (as root):
