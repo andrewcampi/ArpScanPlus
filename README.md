@@ -11,8 +11,8 @@
     192.168.1.81       hp12345678                Hewlett Packard           ff:ee:dd:ea:da:fa
     
 ### Requirements  
-    python3
-    arp-scan
+    * python3
+    * arp-scan
     
 ### Additions to Arp-Scan 
     Sort devices by IP address.
