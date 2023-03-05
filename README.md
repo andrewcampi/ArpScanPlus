@@ -1,5 +1,14 @@
 ## Arp-Scan+  
-    Discover devices on your network.
+    Discover devices on your network more efficiently.
+    
+## Example output
+    IP Address         Hostname                  Manufacturer              MAC Address              
+    ---------------------------------------------------------------------------------------------
+    192.168.1.1        homeRouter                NETGEAR                   aa:bb:cc:dd:ee:ff
+    192.168.1.2        adams-iPhone              APPLE INC.                ff:ee:dd:cc:bb:aa
+    192.168.1.3        pcNumber1                 ASUSTek COMPUTER INC.     ff:aa:ee:bb:cc:dd
+    192.168.1.25       house-doorbell            Nest Labs Inc.            ab:ec:de:da:ee:af   
+    192.168.1.81       hp12345678                Hewlett Packard           ff:ee:dd:ea:da:fa
     
 ### Requirements  
     python3
