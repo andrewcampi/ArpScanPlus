@@ -1,7 +1,7 @@
 ## Arp-Scan+  
     Discover devices on your network more effectively.
     
-## Example output
+## Example output (not real)
     IP Address         Hostname                  Manufacturer              MAC Address              
     ---------------------------------------------------------------------------------------------
     192.168.1.1        homeRouter                NETGEAR                   aa:bb:cc:dd:ee:ff
